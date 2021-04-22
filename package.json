@@ -1,0 +1,30 @@
+{
+  "name": "async-assets",
+  "version": "0.0.1",
+  "description": "Async loading of css and javascript files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azabroflovski/async-assets.git"
+  },
+  "keywords": [
+    "async",
+    "asset",
+    "include",
+    "javascript",
+    "css",
+    "js",
+    "require",
+    "loader",
+    "azabroflovski"
+  ],
+  "author": "azabroflovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azabroflovski/async-assets/issues"
+  },
+  "homepage": "https://github.com/azabroflovski/async-assets#readme"
+}
