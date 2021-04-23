@@ -1,6 +1,6 @@
 ![](https://azabroflovski.uz/logo-sm.png)
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Version](https://img.shields.io/badge/version-0.0.1-blue) ![License](https://img.shields.io/npm/l/async-assets?color=brightgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/azabroflovski/async-assets)
+![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Version](https://img.shields.io/badge/version-0.0.1.alpha-blue) ![License](https://img.shields.io/npm/l/async-assets?color=brightgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/azabroflovski/async-assets)
 
 A simple, lightweight JavaScript API for asynchronous including assets.
 
@@ -54,8 +54,18 @@ AsyncAssets('...', (err) => {
 If you don't want to include package files in your project, you may use it from CDN. The following files are available:
 
 ```html
-<script src="https://unpkg.com/async-assets/bundle.js"></script>
+<script src="https://unpkg.com/async-assets/bundle.js"></script> 
+<!-- or -->
 <script src="https://unpkg.com/async-assets/bundle.min.js"></script>
+
+<script>
+  try {
+    const assets = await AsyncAssets('...')
+    // do something
+  } catch (err) {
+    console.log('Something wrong', err)
+  }
+</script>
 ```
 
 ### Download assets
