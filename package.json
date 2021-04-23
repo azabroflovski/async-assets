@@ -1,6 +1,6 @@
 {
   "name": "async-assets",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "description": "Async loading of css and javascript files",
   "main": "index.js",
   "scripts": {
